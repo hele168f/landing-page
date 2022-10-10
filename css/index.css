@@ -1,5 +1,5 @@
 body {
-    background-image: url("splash.jpg");
+    background-image: url("../photos/splash.jpg");
     background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
@@ -85,7 +85,7 @@ top: 76%;
 
 @media screen and (max-width: 600px) {
     body {
-        background-image: url("splash3.jpg");
+        background-image: url("../photos/splash3.jpg");
         background-color: #192253;
     }
     #menu_top a {
