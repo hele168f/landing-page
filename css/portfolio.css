@@ -260,3 +260,36 @@ img {
 img:hover{
   filter:saturate(2)
 }
+
+
+/* header responsiv */
+
+/* 
+@media (min-width: 180px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+@media (min-width: 375px) {
+  h1 {
+    font-size: 85px;
+  }
+}
+
+@media (min-width: 645px) {
+  h1 {
+    font-size: 120px;
+  }
+}
+
+@media (min-width: 800px) {
+  h1 {
+    font-size: 160px;
+  }
+}
+
+@media (min-width: 1000px) {
+  h1 {
+    font-size: 250px;
+  }
+} */
