@@ -1,0 +1,62 @@
+body {
+    background-image: url("splash.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+/*portfolio link styling*/
+   #menu_top h2 {
+    text-align: right;
+    margin-right:4%;
+   }
+   #menu_top a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+   }
+
+   #grid_midten{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   }
+
+/*menu venstre side styling*/
+    #venstre_menu p{
+    writing-mode: vertical-rl; 
+    font-size: 1.6rem;
+    color: white;
+    margin-top: 22%;
+    margin-left: 12%;
+    }
+
+
+/*link til testen styling*/
+#midte_test_link{
+    position: relative;
+}
+    #midte_test_link a{
+        font-size: 1rem;
+        text-decoration: none;
+        color: white;
+        position: absolute;
+        left: 52%;
+        top:75%;
+    }
+
+/*SoMe links på plakater styling*/
+#højre_some{
+    position: relative;
+    color: white;
+    opacity: 0.9;
+    }
+#fb h2{
+position: absolute;
+right: 20%;
+top: 45%;
+}
+
+#insta h2{
+position: absolute;
+right: 14%;
+top: 76%;
+}
