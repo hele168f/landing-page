@@ -1,18 +1,27 @@
 body {
-    background-image: url("splash.jpg");
+    background-image: url("splash2.jpg");
     background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
    }
-/*portfolio link styling*/
+   img{
+    width: 100%;
+    display: block;
+   }
+
+/*portfolio-link styling*/
    #menu_top h2 {
-    text-align: right;
-    margin-right:4%;
+    text-align: left;
+    margin-left:4%;
+    margin-top: 2%;
    }
    #menu_top a {
     color: white;
     text-decoration: none;
     font-size: 1.5rem;
+   }
+   #menu_top a:hover{
+    text-decoration: underline 5px rebeccapurple;
    }
 
    #grid_midten{
@@ -20,28 +29,19 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
    }
 
-/*menu venstre side styling*/
-    #venstre_menu p{
-    writing-mode: vertical-rl; 
-    font-size: 1.6rem;
-    color: white;
-    margin-top: 22%;
-    margin-left: 12%;
-    }
-
 
 /*link til testen styling*/
-#midte_test_link{
-    position: relative;
-}
-    #midte_test_link a{
-        font-size: 1rem;
+ h3{
+        font-size: 3rem;
         text-decoration: none;
         color: white;
         position: absolute;
-        left: 52%;
-        top:75%;
-    }
+        left: 330px;
+        top:70px;
+}
+   #midte a:hover{
+    color:yellow;
+   }
 
 /*SoMe links på plakater styling*/
 #højre_some{
@@ -53,10 +53,18 @@ body {
 position: absolute;
 right: 20%;
 top: 45%;
+opacity: 0;
 }
+#fb img{
+    width: 217px;
+    height: 217px;
+    position: absolute;
+    right: -2%;
+    top: 46%;
+    }
 
 #insta h2{
-position: absolute;
+position: fixed;
 right: 14%;
 top: 76%;
 }
