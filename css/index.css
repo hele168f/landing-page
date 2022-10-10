@@ -13,6 +13,7 @@ body {
    #menu_top h2 {
     text-align: right;
     margin-right:4%;
+    margin-top: 0;
    }
    #menu_top a {
     color: white;

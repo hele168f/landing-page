@@ -7,7 +7,7 @@
 
 
   /* CSS til navigationsbar */
-  nav {
+  /* nav {
     display: flex;
     height: 90px; 
     width: 100%;
@@ -99,7 +99,25 @@
       background: none;
       
     }
-  }
+  } */
+  #menu_top h2 {
+    text-align: right;
+    margin-right:4%;
+    margin-top: 0;
+   }
+   #menu_top a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+   }
+   #menu_top a:hover{
+    text-decoration: underline 5px rebeccapurple ;
+    
+   }
+   #grid_midten{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   }
 
 
 /* CSS til layout på portfolio siden */
