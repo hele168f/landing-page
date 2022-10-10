@@ -257,4 +257,8 @@ img {
         }
 
 
+/* hover effekt på billederne */
 
+img:hover{
+  filter:saturate(2)
+}
