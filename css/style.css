@@ -1,0 +1,35 @@
+main {
+    max-width: 1200px;
+  }
+
+html {
+    --color_1: #000000; 
+    --color_2: #FFFFFF;
+    --color_3: #3d8079;
+    --overskrift_1: 10rem;
+    --overskrift_2: 3.125rem;
+    --overskrift_3: 1.563rem;
+  }
+
+
+
+h1 {
+    font-size: var(--overskrift_1);
+    color: var(--color_2);
+  }
+
+h2 {
+    font-size: var(--overskrift_2);
+    color: var(--color_2);
+
+  }
+  
+h3 {
+    font-size: var(--overskrift_3);
+    color: var(--color_2);
+  }
+
+  p {
+    /* font-size: var(--overskrift_1); */
+    color: var(--color_2);
+  }
