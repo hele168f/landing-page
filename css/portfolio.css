@@ -104,8 +104,17 @@
 
 /* CSS til layout på portfolio siden */
 
+.main {
+    margin-left: 50px;
+}
+
+/* CSS til videoindhold */
+
 .container_1 {
-    max-width: 700px;
+    display: grid;
+   
+    grid-template-columns: repeat( auto-fit, minmax(400px, 1fr) );
+
 }
 .videoWrapper {
     position: relative;
@@ -121,37 +130,44 @@
     height: 100%;
 }
 
-/* section {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-  }
+/* Margin på videoer */
 
-  article {
-    border: 3px solid #323232;
-    margin: 5px;
-    padding: 5px;
-  }
+.container_1_1 {
+    margin: 20px;
+}
 
-  iframe {
-    max-width: 100%;
-  }
+.container_1_2 {
+    margin: 20px;
+}
 
-  .video_box {
-    position:relative;
-    padding-bottom:56.25%;
-    padding-top:30px;
-    height:0;
-    overflow:hidden;
+/* Margin på billeder */
+
+.container_2_1 {
+    margin: 20px;
+}
+
+.container_2_2 {
+    margin: 20px;
+}
+
+.container_2_3 {
+    margin: 20px;
 }
 
 
-.video_box embed {
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-} */
+
+/* CSS til fotoindhold */
+
+img {
+    width: 100%;
+}
+
+.container_2 {
+    display: grid;
+    /* max-width: 700px; */
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+
+}
 
 /* heading der blinker i neon */
 .neon-text {
