@@ -31,11 +31,12 @@ body {
 
 /*menu venstre side styling*/
     #venstre_menu p{
-    writing-mode: vertical-rl; 
+    writing-mode: sideways-lr; 
     font-size: 1.6rem;
     color: white;
     margin-top: 22%;
     margin-left: 12%;
+    cursor: pointer;
     }
     #venstre_menu p:hover{
         text-decoration: underline 5px rebeccapurple;
