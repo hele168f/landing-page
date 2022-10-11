@@ -13,7 +13,7 @@ img {
 }
 
 /*portfolio link styling*/
-#menu_top h2 {
+#menu_top h3 {
   text-align: right;
   margin-right: 4%;
   margin-top: 0;
@@ -131,12 +131,13 @@ img {
   text-align: center;
   text-decoration: none;
   transition: all 0.2s ease-in-out;
+  margin: 100px auto;
   
   border: 1px solid #fff;
 }
 
 .button:hover {
-  box-shadow: inset 1px 1px 1rem 1px #ffffff !important;
+  box-shadow: 1px 1px 0.5rem 1px #ffffff;
   text-decoration: none;
 }
 
@@ -144,6 +145,11 @@ img {
 
 .faellesspisning {
   padding: 50px;
+}
+
+.faellesspisning p {
+
+  max-width: 60ch;
 }
 
 
@@ -160,5 +166,10 @@ img {
   position: absolute;
   top: 8px;
   right: 100px;
+}
+
+
+a {
+  text-decoration: none;
 }
 

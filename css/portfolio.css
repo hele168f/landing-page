@@ -8,7 +8,7 @@
 
   /* CSS til navigationsbar */
  
-  #menu_top h2 {
+  #menu_top h3 {
     text-align: right;
     margin-right:4%;
     margin-top: 0;
@@ -67,7 +67,7 @@
 
 /* CSS til fotoindhold */
 
-img {
+.billeder {
     width: 100%;
     box-shadow: 0 0 0 2px #fff;
 }
@@ -75,6 +75,7 @@ img {
 .container_2 {
     display: grid;
     grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+    gap: 20px;
 
 }
 
@@ -186,7 +187,7 @@ img {
 /* hover effekt på billederne */
 
 img:hover{
-  filter:saturate(2)
+  filter:saturate(3)
 }
 
 
