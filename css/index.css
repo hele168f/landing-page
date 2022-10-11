@@ -1,107 +1,105 @@
 body {
-    background-image: url("../photos/splash.jpg");
-    background-color: black;
-    background-repeat: no-repeat;
-    background-size: cover;
-   }
-   img{
-    width: 100%;
-    display: block;
-   }
+  /*background-image: url("../photos/splash.jpg");*/
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+img {
+  width: 100%;
+  display: block;
+}
 
 /*portfolio link styling*/
-   #menu_top h2 {
-    text-align: right;
-    margin-right:4%;
-    margin-top: 0;
-   }
-   #menu_top a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.5rem;
-   }
-   #menu_top a:hover{
-    text-decoration: underline 5px rebeccapurple ;
-    
-   }
+#menu_top h2 {
+  text-align: right;
+  margin-right: 4%;
+  margin-top: 0;
+}
+#menu_top a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+#menu_top a:hover {
+  text-decoration: underline 5px rebeccapurple;
+}
 
-   #grid_midten{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-   }
+#grid_midten {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
 
 /*menu venstre side styling*/
-    #venstre_menu p{
-    writing-mode: sideways-lr; 
-    font-size: 1.6rem;
-    color: white;
-    margin-top: 22%;
-    margin-left: 12%;
-    cursor: pointer;
-    }
-    #venstre_menu p:hover{
-        text-decoration: underline 5px rebeccapurple;
-    }
+#venstre_menu p {
+  writing-mode: sideways-lr;
+  font-size: 1.6rem;
+  color: white;
+  margin-top: 22%;
+  margin-left: 12%;
+  cursor: pointer;
+}
+#venstre_menu p:hover {
+  text-decoration: underline 5px rebeccapurple;
+}
 
 /*link til testen styling*/
-#midte{
-    position: relative;
+#midte {
+  position: relative;
 }
-    #midte a{
-        font-size: 1rem;
-        text-decoration: none;
-        color: white;
-        position: absolute;
-        left: 250px;
-        top:530px;
-    }
-   #midte a:hover{
-    color:yellow;
-   }
+#midte a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  left: 250px;
+  top: 530px;
+}
+#midte a:hover {
+  color: yellow;
+}
 
 /*SoMe links på plakater styling*/
-#højre_some{
-    position: relative;
-    color: white;
-    opacity: 0.9;
-    }
-#fb h2{
-position: absolute;
-right: 20%;
-top: 45%;
-opacity: 0;
+#højre_some {
+  position: relative;
+  color: white;
+  opacity: 0.9;
 }
-#fb img{
-    width: 217px;
-    height: 217px;
-    position: absolute;
-    right: -2%;
-    top: 46%;
-    }
+#fb h2 {
+  position: absolute;
+  right: 20%;
+  top: 45%;
+  opacity: 0;
+}
+#fb img {
+  width: 217px;
+  height: 217px;
+  position: absolute;
+  right: -2%;
+  top: 46%;
+}
 
-#insta h2{
-position: fixed;
-right: 14%;
-top: 76%;
+#insta h2 {
+  position: fixed;
+  right: 14%;
+  top: 76%;
 }
 
 @media screen and (max-width: 600px) {
-    body {
-        background-image: url("../photos/splash3.jpg");
-        background-color: #192253;
-    }
-    #menu_top a {
-        color: white;
-        text-decoration: none;
-        font-size: 1rem;
-       }
-       #midte a{
-        font-size: 1rem;
-        text-decoration: none;
-        color: white;
-        position: absolute;
-        left: 220px;
-        top:550px;
-    }
+  body {
+    background-image: url("../photos/splash3.jpg");
+    background-color: #192253;
   }
- 
+  #menu_top a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  #midte a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    left: 220px;
+    top: 550px;
+  }
+}
