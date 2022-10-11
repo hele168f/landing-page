@@ -1,12 +1,15 @@
-body {
-  background-image: url("../photos/bag2.webp");
+main {
+  
   background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: 10px;
 }
+
 img {
   width: 100%;
   display: block;
+  /* filter: brightness(10%) */
 }
 
 /*portfolio link styling*/
@@ -85,10 +88,10 @@ img {
 }
 
 @media screen and (max-width: 600px) {
-  body {
+  /* body {
     background-image: url("../photos/splash3.jpg");
     background-color: #192253;
-  }
+  } */
   #menu_top a {
     color: white;
     text-decoration: none;
@@ -103,3 +106,59 @@ img {
     top: 550px;
   }
 }
+
+
+
+
+
+
+
+
+
+/* Helena har lavet */
+.img_hvad_er {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  padding: 50px;
+}
+
+
+.button {
+  background: #000;
+  padding: 50px;
+  font-size: 1.3rem;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  
+  border: 1px solid #fff;
+}
+
+.button:hover {
+  box-shadow: inset 1px 1px 1rem 1px #ffffff !important;
+  text-decoration: none;
+}
+
+
+
+.faellesspisning {
+  padding: 50px;
+}
+
+
+
+
+.top-left {
+  position: absolute;
+  top: 100px;
+  left: 16px;
+}
+
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 100px;
+}
+

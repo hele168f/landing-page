@@ -7,7 +7,7 @@ html {
     --color_1: #000000; 
     --color_2: #FFFFFF;
     --overskrift_1: 18vw;
-    --overskrift_2: 5.9vw;
+    --overskrift_2: 3vw;
     --overskrift_3: 100px;
   }
 
@@ -30,7 +30,6 @@ h2 {
     font-family: nimbus-sans-condensed, sans-serif;
     font-weight: 900;
     font-style: italic;
-    line-height: 83.4px;
     letter-spacing: 0;
 
     margin-bottom: 10px;
@@ -47,7 +46,7 @@ h3 {
   }
 
   p {
-    font-size: 1vw;
+    font-size: 2vw;
     color: var(--color_2);
     font-family: granville,serif;
     font-weight: 400;
