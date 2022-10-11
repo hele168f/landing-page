@@ -1,70 +1,69 @@
 body {
-    background-image: url("../photos/splash2.jpg");
-    background-color: black;
-    background-repeat: no-repeat;
-    background-size: cover;
-   }
-   img{
-    width: 100%;
-    display: block;
-   }
+  background-image: url("../photos/testbil.jpeg");
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+img {
+  width: 100%;
+  display: block;
+}
 
 /*portfolio-link styling*/
-   #menu_top h2 {
-    text-align: left;
-    margin-left:4%;
-    margin-top: 2%;
-   }
-   #menu_top a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.5rem;
-   }
-   #menu_top a:hover{
-    text-decoration: underline 5px rebeccapurple;
-   }
+#menu_top h2 {
+  text-align: left;
+  margin-left: 4%;
+  margin-top: 2%;
+}
+#menu_top a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+#menu_top a:hover {
+  text-decoration: underline 5px rebeccapurple;
+}
 
-   #grid_midten{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-   }
-
+#grid_midten {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
 
 /*link til testen styling*/
- h3{
-        font-size: 3rem;
-        text-decoration: none;
-        color: white;
-        position: absolute;
-        left: 330px;
-        top:70px;
+h3 {
+  font-size: 3rem;
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  left: 330px;
+  top: 70px;
 }
-   #midte a:hover{
-    color:yellow;
-   }
+#midte a:hover {
+  color: yellow;
+}
 
 /*SoMe links på plakater styling*/
-#højre_some{
-    position: relative;
-    color: white;
-    opacity: 0.9;
-    }
-#fb h2{
-position: absolute;
-right: 20%;
-top: 45%;
-opacity: 0;
+#højre_some {
+  position: relative;
+  color: white;
+  opacity: 0.9;
 }
-#fb img{
-    width: 217px;
-    height: 217px;
-    position: absolute;
-    right: -2%;
-    top: 46%;
-    }
+#fb h2 {
+  position: absolute;
+  right: 20%;
+  top: 45%;
+  opacity: 0;
+}
+#fb img {
+  width: 217px;
+  height: 217px;
+  position: absolute;
+  right: -2%;
+  top: 46%;
+}
 
-#insta h2{
-position: fixed;
-right: 14%;
-top: 76%;
+#insta h2 {
+  position: fixed;
+  right: 14%;
+  top: 76%;
 }
