@@ -9,6 +9,14 @@ img {
   display: block;
 }
 
+p {
+  color: blue;
+}
+
+h2 {
+  color:white;
+}
+
 /*portfolio-link styling*/
 #menu_top h2 {
   text-align: left;
@@ -26,7 +34,6 @@ img {
 
 #grid_midten {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
 }
 
 /*link til testen styling*/
@@ -67,3 +74,26 @@ h3 {
   right: 14%;
   top: 76%;
 }
+
+
+
+ /* CSS til navigationsbar */
+ 
+ #menu_top h2 {
+  text-align: right;
+  margin-right:4%;
+  margin-top: 0;
+  margin-bottom: 10px;
+ }
+ #menu_top a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+ }
+ #menu_top a:hover{
+  text-decoration: underline 5px rebeccapurple ;
+  
+ }
+ #grid_midten{
+  display: grid;
+ }
